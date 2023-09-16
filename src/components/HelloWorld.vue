@@ -11,7 +11,7 @@
         <div class="label">
           <input class="checkbox" type="checkbox">
           <span>{{ todo.text }}</span>
-        </div>            
+        </div>
         <button class="remove-btn" @click="removeTodo(i)">Remove</button>
         <button class="edit-btn">Edit</button>
       </li>
@@ -43,7 +43,7 @@ export default {
 <style scoped>
 
 .todo-list {
-  background-color: rgba(118, 49, 183, 0.737);
+  background-color: rgba(92, 35, 146, 0.737);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,7 +83,7 @@ export default {
 
 
 ul {
-  overflow-y: hidden;  
+  overflow-y: hidden;
   list-style-type: none;
   padding: 0;
 
@@ -115,7 +115,7 @@ li {
   border-radius: 10px;
   background-color: #fff;
   padding: 5px;
-  transform: translate(0% , -85%); 
+  transform: translate(0% , -85%);
 
 }
 
@@ -128,10 +128,7 @@ li {
   border-radius: 10px;
   background-color: #fff;
   padding: 5px;
-  transform: translate(-200% , -185%); 
+  transform: translate(-200% , -185%);
 
 }
 </style>
-
-
-
