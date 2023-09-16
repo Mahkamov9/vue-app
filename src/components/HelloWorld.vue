@@ -35,9 +35,6 @@ export default {
     },
     removeTodo(i) {
       this.todos.splice(i, 1);
-      this.todos.splice(i, 1);
-      this.todos.splice(i, 1);
-
     },
   },
 };
