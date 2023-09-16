@@ -35,6 +35,8 @@ export default {
     },
     removeTodo(i) {
       this.todos.splice(i, 1);
+      this.todos.splice(i, 1);
+
     },
   },
 };
@@ -44,10 +46,6 @@ export default {
 
 .todo-list {
   background-color: rgba(74, 32, 114, 0.737);
-  background-color: rgba(74, 32, 114, 0.737);
-  background-color: rgba(74, 32, 114, 0.737);
-  background-color: rgba(74, 32, 114, 0.737);
-
   display: flex;
   flex-direction: column;
   align-items: center;
