@@ -33,6 +33,7 @@ export default {
       this.todos.push({ text: this.newTodo });
       this.newTodo = '';
       this.newTodo = '';
+      this.newTodo = '';
 
     },
     removeTodo(i) {
