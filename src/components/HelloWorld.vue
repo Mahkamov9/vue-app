@@ -35,6 +35,7 @@ export default {
       this.newTodo = '';
       this.newTodo = '';
       this.newTodo = '';
+      this.newTodo = '';
 
     },
     removeTodo(i) {
