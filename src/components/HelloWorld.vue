@@ -32,6 +32,8 @@ export default {
       if (this.newTodo.trim() === '') return;
       this.todos.push({ text: this.newTodo });
       this.newTodo = '';
+      this.newTodo = '';
+
     },
     removeTodo(i) {
       this.todos.splice(i, 1);
