@@ -46,6 +46,7 @@ export default {
   background-color: rgba(74, 32, 114, 0.737);
   background-color: rgba(74, 32, 114, 0.737);
   background-color: rgba(74, 32, 114, 0.737);
+  background-color: rgba(74, 32, 114, 0.737);
 
   display: flex;
   flex-direction: column;
